@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Formulário</title>
+    <link rel="shortcut icon" href="../imagens/buque-de-flores.png" type="image/x-icon">
+    <title>Cadastro</title>
 </head>
 <body>
+    <header>
+        <img src="../imagens/pessoa_icone.png" alt="pessoa icone">
+        <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <form action="index.php" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha" required>
+        <br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
     
 </body>
+<footer>
+    <p>Desenvolvido por Maria Clara Corecha &copy; 2024</p>
+</footer>
 </html>

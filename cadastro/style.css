@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+header{
+    background: linear-gradient(to right, #210241, #ba43f1);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    color: white;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    align-items: self-end;
+    justify-content: end;
+
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    padding: 20px;
+    background-color: black;
+}
+
+form{
+    background: linear-gradient(to right, #6a11cb, #25aafc);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90vw;
+    max-width: 500px;
+    margin-top: 70px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background: #465ef9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background: #022363;
+}
+footer{
+    background: linear-gradient(to right, #052f9a, #4d8fe6);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin: 0;
+    font-size: 14px;
+}
+
+form{
+    margin-top: 20px;
+}
+@media (max-width: 600px){
+    form{
+        padding: 20px;
+    }
+}
